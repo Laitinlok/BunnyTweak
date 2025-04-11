@@ -133,7 +133,7 @@ jobs:
 
       - name: Download Discord IPA
         run: |
-          curl -L -o discord.ipa ${{ github.event.inputs.ipa_url || inputs.ipa_url }}
+          curl -L -o discord.ipa "${{ github.event.inputs.ipa_url || inputs.ipa_url }}"
 
       - name: Download IPA icons
         run: |
