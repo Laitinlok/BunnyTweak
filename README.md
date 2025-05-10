@@ -1,18 +1,17 @@
+> [!IMPORTANT]
+> ## Project Archival and Licensing Notice
+> 
+> **This project is no longer actively maintained and this repository has been archived.**
+>
+> We want to thank all contributors and users for their support over the project's lifetime. While development has ceased, the code remains available for those who may find it useful.
+>
+> If you want to fork, redistribute, or continue development of this project (BunnyTweak), read [Important Clarification Regarding Licensing](#important-clarification-regarding-licensing) to understand your rights and the actual applicable license.
+
 # BunnyTweak
 
 ![screenshot](https://adriancastro.dev/c6wkhfl0rq1f.PNG)
 
 Tweak to inject [Bunny](https://github.com/pyoncord/Bunny) and [OpenInDiscord](https://github.com/castdrian/OpenInDiscord) into Discord. Forked from [VendettaTweak](https://github.com/vendetta-mod/VendettaTweak) and modified to match with [BunnyXposed](https://github.com/pyoncord/BunnyXposed)'s behavior.
-
-<details>
-<summary>Amended Licensing Terms Notice</summary>
-
-As of commit b7cd1471f7d9dd79fe7832e7e7face296f2fd6a6, this repository includes an amendment to the original Open Software License 3.0 ("OSL 3.0"). The following new conditions have been added to the license:
-
-- Substantial Modification Requirement: Any forks, derivative works, or redistributions of this project must meet the requirement for substantial modification as outlined in the updated license. Redistribution without substantial changes to the codebase or functionality is prohibited.
-
-This amendment is made in accordance with the OSL 3.0's Section 16, which allows for modification of the license as long as the modified version is not presented as the original OSL. The modifications applied here are clearly delineated and include only the added condition of requiring substantial changes to redistributed code.
-</details>
 
 > [!WARNING]
 > When sideloading with an ADP account cert, some functionality will break. If you value these features, sideload with a local development certificate instead. There is a workaround available that fixes one of the issues. See below for details.
@@ -108,6 +107,22 @@ The resulting `.deb` file will be in the `packages` folder.
 ## Contributors
 
 [![Contributors](https://contrib.rocks/image?repo=bunny-mod/BunnyTweak)](https://github.com/bunny-mod/BunnyTweak/graphs/contributors)
+
+## Important Clarification Regarding Licensing
+
+This project was originally licensed under the **Open Software License 3.0 (OSL 3.0)**.
+
+An amendment attempting to add a "Substantial Changes Requirement" was introduced in commit `b7cd1471f7d9dd79fe7832e7e7face296f2fd6a6`. This amendment claimed retroactive effect starting from commit `c568969333ae20bbbb6e924f6404e4f02fb65fd7`, subsequent to significant code revisions.
+
+As the repository owner, and in the interest of clarity upon archiving this project, please note the following:
+
+- Applying license changes retroactively is generally invalid. All code committed and distributed *before* the amendment was actually introduced in `b7cd147` was under the standard OSL 3.0 terms applicable at that time.
+- The attempt to make this amendment effective retroactively (from commit `c568969`, before it was introduced in `b7cd147`) is procedurally invalid. Additionally, the Open Software License 3.0, like most standard open-source licenses, is intended to be used without modification to its own terms. Creating custom amendments *to the OSL 3.0 text itself* raises significant questions about the resulting license's validity and enforceability.
+- Given the procedural issues, particularly the invalid retroactive application, the repository owner considers the amendment non-binding. The **entire codebase within this repository, reflecting its state upon archival, is intended to remain governed by the standard, unmodified Open Software License 3.0**, as contained in the `LICENSE` file prior to commit `b7cd147`. Versions of the code prior to commit `b7cd147` are unequivocally available under the standard OSL 3.0.
+- This means **you may freely fork, modify, and redistribute this codebase in accordance with the OSL 3.0** without needing to meet arbitrary "substantial modification" thresholds.
+
+To reflect this, the `LICENSE` file has been restored to contain only the original OSL 3.0 text prior to archiving.
+
 
 <!-- @vladdy was here, battling all these steps so you don't have to. Have fun! :3 -->
 <!-- @castdrian also was here simplifying these steps immensely -->
